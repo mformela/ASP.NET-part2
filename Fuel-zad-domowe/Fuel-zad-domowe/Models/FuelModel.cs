@@ -7,8 +7,9 @@ namespace Fuel_zad_domowe.Models
 {
     public class FuelModel
     {
+        //tworzymy property dla FuelModel//
         public int Fuel { get; set; }
         public int Distance { get; set; }
-        public double AvgConsumption { get; set; }
+        public double? AvgConsumption { get; set; }
     }
 }
